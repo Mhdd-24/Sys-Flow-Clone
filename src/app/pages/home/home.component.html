@@ -1,1 +1,15 @@
-<app-header></app-header>
+<div class="home">
+    <app-header></app-header>
+    <app-sidebar></app-sidebar>
+    <div class="hero" [ngStyle]="{ 'background-image': 'url(' + content.backgroundImage + ')' }">
+        <div class="overlay">
+            <h1>{{ content.heading }}</h1>
+            <div class="buttons">
+                <a *ngFor="let btn of content.buttons" [routerLink]="btn.route"
+                    [ngClass]="btn.style === 'primary' ? 'btn-primary' : 'btn-secondary'">
+                    {{ btn.label }}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

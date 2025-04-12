@@ -1,0 +1,58 @@
+.hero {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 25rem;
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        color: white;
+        max-width: 70%;
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            line-height: 1.5;
+            font-family: monospace;
+        }
+    }
+}
+
+.buttons {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    a {
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: monospace;
+    }
+
+    .btn-primary {
+        background-color: red;
+        color: white;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .btn-secondary {
+        background-color: #041e42;
+        color: white;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

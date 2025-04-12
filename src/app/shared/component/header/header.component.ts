@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { uiImages, imagePath } from '../../../core/constants/image-interface';
 
 @Component({
   selector: 'app-header',
@@ -8,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   public salesEmail: string = 'sales@sysflowautomation.com';
-  public hrEmail: string = 'sales@sysflowautomation.com';
+  public hrEmail: string = 'hr@sysflowautomation.com';
   public Call: string = '+91 80729 21544';
+
+  public imageObj =  uiImages;
 }

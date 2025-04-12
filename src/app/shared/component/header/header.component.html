@@ -1,11 +1,10 @@
 <div class="header">
     <figure>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fsysflow-telemetry&psig=AOvVaw0-q4QLMJK9FIyBPhf4pf0v&ust=1744529883792000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjG0bH-0YwDFQAAAAAdAAAAABAE"
-            alt="">
+        <img [src]="imageObj.logo">
     </figure>
     <div class="email-support-container">
-        <figure>
-            <img src="" alt="">
+        <figure class="mail">
+            <img [src]="imageObj.mail" alt="">
         </figure>
         <div class="email-support">
             <h2>Email Support</h2>
@@ -18,12 +17,12 @@
         </div>
     </div>
     <div class="Call-support-container">
-        <figure>
-            <img src="" alt="">
+        <figure class="phone">
+            <img [src]="imageObj.phone" alt="">
         </figure>
         <div class="Call-support">
             <h2>Call Support</h2>
-            <div class="email">
+            <div class="call">
                 <p>{{Call}}</p>
             </div>
         </div>

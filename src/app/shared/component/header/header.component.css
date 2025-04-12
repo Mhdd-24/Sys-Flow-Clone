@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    width: 100vw;
+    height: 74px;
+    background: white;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.email-support-container {
+    display: flex;
+    height: 74px;
+
+    align-items: center;
+}
+
+.Call-support-container {
+    display: flex;
+    height: 74px;
+
+    align-items: center;
+}
+
+.btn {
+    width: 120px;
+    height: 45px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    font-family: monospace;
+    border: 1px solid red;
+    border-radius: 24px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: black;
+        border: 1px solid black;
+    }
+}
+
+figure {
+    width: 60px;
+    height: 45px;
+
+    img {
+        width: 60px;
+        height: 45px;
+        border-radius: 1%;
+    }
+}
+
+.mail {
+    width: 30px;
+    height: 30px;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.phone {
+    width: 30px;
+    height: 30px;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.email {
+    p {
+        font-size: 14px;
+        font-family: monospace;
+        font-weight: 400;
+        line-height: 20px;
+        color: #041E42;
+        margin: 0;
+    }
+
+    span {
+        font-size: 14px;
+        font-family: monospace;
+        font-weight: 400;
+        line-height: 24px;
+        color: #041E42;
+    }
+}
+
+h2 {
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    line-height: 24px;
+    color: #041E42;
+}
+
+.call {
+    p {
+        font-size: 14px;
+        font-family: monospace;
+        font-weight: 400;
+        line-height: 20px;
+        color: #041E42;
+        margin: 0;
+    }
+}
